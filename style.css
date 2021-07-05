@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 20%;
+    padding: 0 10px;
+}
+.icon {
+    width: 20%;
+}
+.menu{
+    width: 80%;
+    text-align: right;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.menu a{
+    text-decoration: none;
+    padding: 20px;
+}
+.full-page{
+    display: flex;
+}
+
+.half-page{
+    width: 50%;
+    padding: 20px;
+    margin-left: 30px;
+}
+.half-page img{
+    width: 100%;
+}
+
+.intro-text{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.intro-text h1{
+    font-size: 3em;
+    margin:0;
+    color:#353434ce
+}
+.intro-text p{
+    color: #353434ce;
+    margin: 40px 0;
+    font-size: larger;
+}
+
+.orange-button{
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(247, 166, 74), rgb(236, 63, 0));
+    padding: 15px 40px;
+    color: white;
+    border-radius: 25px;
+    
+}

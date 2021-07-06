@@ -7,7 +7,10 @@ body{
     height: 20%;
     padding: 0 10px;
 }
-
+.logo{
+    width: 20%;
+    margin-left: 10px;
+}
 .menu{
     width: 80%;
     text-align: right;
@@ -18,12 +21,10 @@ body{
     text-decoration: none;
     padding: 20px;
     color: #353434b6;
-
 }
 .full-page{
     display: flex;
 }
-
 .half-page{
     width: 50%;
     padding: 20px;
@@ -32,13 +33,12 @@ body{
 .half-page img{
     width: 100%;
 }
-
 .intro-text{
     margin-top: 150px;
     margin-left: 50px;
 }
 .orange-text{
-    color: orange;
+    color: rgb(248, 137, 33);
 }
 .intro-text h1{
     font-size: 3em;
@@ -50,7 +50,6 @@ body{
     margin: 50px 0;
     font-size: larger;
 }
-
 .orange-button{
     text-decoration: none;
     background-image: linear-gradient(to right, rgb(247, 166, 74), rgb(236, 63, 0));
@@ -66,6 +65,7 @@ body{
 }
 .page-top{
     text-align: center;
+    margin-top: 80px;
     padding: 0 250px;
 }
 .recipie-brief{
@@ -93,7 +93,6 @@ body{
     text-align: center;
     padding: 20px;
     margin: 0 80px;
-    
 }
 .media h1{
     font-size: 3.5em;
@@ -107,7 +106,6 @@ footer{
     text-align: center;
 }
 .footer-text h1, .logo h1{
-    margin: 0;
     color: rgba(146, 146, 146, 0.87);
     font-weight: lighter;
 }
